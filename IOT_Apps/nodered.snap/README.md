@@ -1,4 +1,4 @@
-#Node-Red for Ubuntu Core
+# Node-Red for Ubuntu Core
  
  The original code for this came from https://github.com/muka/nodered.snap.git.  
 
