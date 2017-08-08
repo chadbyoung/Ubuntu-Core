@@ -2,7 +2,7 @@
 
 ## Use of the software 
 
-The applications and/or scripts in this github account are meant to be a references on how-to create snaps for Ubuntu Core.  
+The applications and/or scripts in this github account are meant to be used as a reference on how-to create snaps for Ubuntu Core.  
 
 DO NOT USE this code in a production environment.  
 
