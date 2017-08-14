@@ -16,15 +16,18 @@ apps:
     daemon: simple
     restart-condition: always
     plugs: [network, network-bind]
+  pub:
+    command: /usr/local/bin/mosquitto_pub
+  sub:
+    command: /usr/local/bin/mosquitto_sub
 
 
 parts:
   script:
     plugin: dump
-    source: snap/
+    source: ../snap/
     prime:
     - mosquitto.conf
-
 
   mosquitto:
     plugin: make
@@ -47,3 +50,9 @@ parts:
     - lib/*-linux-gnu/libssl.so*
     - lib/*-linux-gnu/libuuid.so*
 
+  clientfiles:
+    plugin: dump
+    source: ../
+  client:
+    plugin: make
+    source: ../client
