@@ -1,7 +1,0 @@
-!PrimeState
-dependency_paths: !!set {}
-directories: !!set {}
-files: !!set {}
-project_options: {}
-properties:
-  prime: [usr/lib/*-linux-gnu/libcares.so.2]
