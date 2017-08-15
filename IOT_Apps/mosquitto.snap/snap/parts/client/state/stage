@@ -1,0 +1,7 @@
+!StageState
+directories: !!set {}
+files: !!set {}
+project_options: {}
+properties:
+  filesets: {}
+  stage: [usr/lib/*-linux-gnu/libcares.so.2]

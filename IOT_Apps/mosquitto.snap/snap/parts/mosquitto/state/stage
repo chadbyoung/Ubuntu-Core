@@ -1,0 +1,11 @@
+!StageState
+directories: !!set {lib: null, lib/x86_64-linux-gnu: null, usr: null, usr/local: null,
+  usr/local/bin: null, usr/local/sbin: null}
+files: !!set {lib/x86_64-linux-gnu/libcrypto.so.1.0.0: null, lib/x86_64-linux-gnu/libssl.so.1.0.0: null,
+  lib/x86_64-linux-gnu/libuuid.so.1: null, lib/x86_64-linux-gnu/libuuid.so.1.3.0: null,
+  usr/local/bin/mosquitto_pub: null, usr/local/bin/mosquitto_sub: null, usr/local/sbin/mosquitto: null}
+project_options: {}
+properties:
+  filesets: {}
+  stage: [usr/local/sbin/mosquitto, lib/*-linux-gnu/, usr/local/bin/mosquitto_pub,
+    usr/local/bin/mosquitto_sub]

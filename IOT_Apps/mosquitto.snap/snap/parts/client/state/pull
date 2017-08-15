@@ -1,17 +1,18 @@
 !PullState
 assets:
   build-packages: []
-  source-details: null
+  source-details: {branch: '', checksum: '', commit: 46630e7325a82644be1a6fef00ef30bbd52c7ef6,
+    source: 'https://github.com/eclipse/mosquitto', tag: ''}
   stage-packages: []
 project_options: {deb_arch: amd64}
 properties:
   plugin: make
-  source: ../client
+  source: https://github.com/eclipse/mosquitto
   source-branch: ''
   source-commit: ''
   source-depth: 0
-  source-subdir: ''
+  source-subdir: client
   source-tag: ''
-  source-type: ''
+  source-type: git
   stage-packages: []
 schema_properties: []

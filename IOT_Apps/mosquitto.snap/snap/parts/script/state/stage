@@ -1,0 +1,7 @@
+!StageState
+directories: !!set {}
+files: !!set {mosquitto.conf: null}
+project_options: {}
+properties:
+  filesets: {}
+  stage: ['*']
